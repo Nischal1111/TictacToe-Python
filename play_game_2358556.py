@@ -14,7 +14,7 @@ def main():
         choice = menu()
         if choice == '1':
             score = play_game(board)
-            # total_score += score
+            total_score += score
             print(f'Your scored {score} this game:',)
         if choice == '2':
             save_score(score)
